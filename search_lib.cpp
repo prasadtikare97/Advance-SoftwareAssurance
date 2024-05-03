@@ -4,18 +4,6 @@
 #include <cctype>
 #include "search_lib.h" // Include the code file with the functions to be tested
 
-struct Treenode {
-    double data;
-    int index;
-    Treenode* left;
-    Treenode* right;
-};
-
-struct Stack {
-    Treenode* data;
-    Stack* next;
-};
-
 const int NOT_FOUND = -1;
 const char SPECIFIER[] = "%.2f";
 
